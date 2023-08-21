@@ -26,8 +26,6 @@ if __name__ == '__main__':
     
     if video_inference == True:
         cap = cv2.VideoCapture(video_path)
-        size = (640, 480)
-        result = cv2.VideoWriter('result.mp4', cv2.VideoWriter_fourcc('m','p','4','v'), 10, size)
         while(True):
             ret, image_3c = cap.read()
             if not ret:
@@ -44,7 +42,6 @@ if __name__ == '__main__':
             if isinstance(boxes, np.ndarray):
                 vis_img = vis_result(image_3c, results, colorlist, CLASSES, result_path)
                 cv2.imshow("vis_img", vis_img)
-                result.write(vis_img)
             else:
                 print("No detection result")
             cv2.waitKey(1)
