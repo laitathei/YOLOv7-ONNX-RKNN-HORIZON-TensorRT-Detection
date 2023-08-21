@@ -1,6 +1,9 @@
 # YOLOv7-ONNX-RKNN-Detection
 ***Remark: This repo only support 1 batch size***
+![!YOLOv7 ONNX RKNN Detection Picture](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/visual_image.jpg)
+![!YOLOv7 ONNX RKNN Detection Video](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/result.gif)
 
+Video source: https://www.youtube.com/watch?v=n3Dru5y3ROc&t=0s
 ```
 git clone --recursive https://github.com/laitathei/YOLOv7-ONNX-RKNN-Segmentation.git
 ```
@@ -42,10 +45,10 @@ python3 app.py
 
 Enter ```http://127.0.0.1:5000/```
 Cut the below part of the network
-![!YOLOv7 ONNX RKNN Detection Picture 1](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/master/doc/step1.jpeg)
+![!YOLOv7 ONNX RKNN Detection Picture 1](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/step1.jpeg)
 
 Add the new output and download it
-![!YOLOv7 ONNX RKNN Detection Picture 2](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/master/doc/step2.jpeg)
+![!YOLOv7 ONNX RKNN Detection Picture 2](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/step2.jpeg)
 
 Move the modified newtork to replace the old one
 ```
