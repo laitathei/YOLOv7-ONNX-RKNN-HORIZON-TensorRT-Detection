@@ -45,10 +45,10 @@ python3 app.py
 
 Enter ```http://127.0.0.1:5000/```
 Cut the below part of the network
-![!YOLOv7 ONNX RKNN Detection Picture 1](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/step1.jpeg)
+![!YOLOv7 ONNX RKNN Detection Picture 1](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/step2.jpeg)
 
 Add the new output and download it
-![!YOLOv7 ONNX RKNN Detection Picture 2](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/step2.jpeg)
+![!YOLOv7 ONNX RKNN Detection Picture 2](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/step1.jpeg)
 
 Move the modified newtork to replace the old one
 ```
