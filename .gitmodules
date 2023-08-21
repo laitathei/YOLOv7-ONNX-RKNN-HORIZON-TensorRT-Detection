@@ -1,0 +1,9 @@
+[submodule "yolov7"]
+	path = yolov7
+	url = https://github.com/WongKinYiu/yolov7
+[submodule "onnx-modifier"]
+	path = onnx-modifier
+	url = https://github.com/ZhangGe6/onnx-modifier.git
+[submodule "rknn-toolkit2"]
+	path = rknn-toolkit2
+	url = https://github.com/rockchip-linux/rknn-toolkit2.git
