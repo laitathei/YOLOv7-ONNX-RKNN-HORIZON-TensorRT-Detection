@@ -69,6 +69,38 @@ python3 onnx2rknn_step2.py
 python3 rknn_lite_inference.py
 ```
 
+## 7. Horizon Prerequisite
+```
+wget -c ftp://xj3ftp@vrftp.horizon.ai/ai_toolchain/ai_toolchain.tar.gz --ftp-password=xj3ftp@123$%
+tar -xvf ai_toolchain.tar.gz
+cd ai_toolchain/
+pip3 install h*
+```
+
+## 7. Convert ONNX model to Horizon
+get onnx file with ```opset 11```
+```
+python3 pytorch2onnx.py --weights ./model/yolov7-tiny.pt --simplify --img-size 480 640 --max-wh 640 --topk-all 100 --end2end --grid --opset 11
+```
+Follow ```Step 4``` to delete part of model, and run ```remove_value_list.py``` to remove corresponding value in model
+Remember to change the variable to your setting include ```yolov7det_config.yaml```
+```
+sh 01_check.sh
+sh 02_preprocess.sh
+sh 03_build.sh
+```
+
+## 8. Horizon Inference
+```
+python3 horizion_simulator_inference.py
+python3 horizion_onboard_inference.py
+```
+
+## 9. Onnx Runtime Inference
+```
+python3 onnxruntime_inference.py
+```
+
 ## Reference
 ```
 https://blog.csdn.net/magic_ll/article/details/131944207
