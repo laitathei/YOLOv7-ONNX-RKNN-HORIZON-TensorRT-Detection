@@ -4,7 +4,7 @@ input_width = 640
 input_height = 480
 model_path = "./model"
 model_name = 'yolov7-tiny'
-ONNX_MODEL = f'{model_path}/modified_{model_name}-{input_height}-{input_width}.onnx'
+ONNX_MODEL = f'{model_path}/{model_name}-{input_height}-{input_width}.onnx'
 onnx_model = onnx.load(ONNX_MODEL)
 
 graph = onnx_model.graph
