@@ -184,7 +184,7 @@ def postprocess(preds, img, orig_img, conf_thres, iou_thres, classes=None):
         shape = orig_img.shape
         results = []
         if not len(preds):
-            results.append([[], [], []])  # save empty boxes
+            results.append([[], []])  # save empty boxes
             continue
         # Rescale boxes from img_size to im0 size
         pred[:, :4] = scale_boxes(img.shape[2:], pred[:, :4], shape).round()
