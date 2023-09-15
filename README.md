@@ -107,7 +107,7 @@ python3 onnxruntime_inference.py
 ```
 
 ## 10. Convert ONNX model to TensorRT 
-Use the ONNX file come from ```Step 4```
+Use the ONNX file come from ```Step 4``` </br>
 Remember to change the variable to your setting
 ```
 python3 onnx2trt.py
