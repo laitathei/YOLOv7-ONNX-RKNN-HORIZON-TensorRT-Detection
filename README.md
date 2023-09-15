@@ -1,11 +1,11 @@
-# YOLOv7-ONNX-RKNN-Detection
+# YOLOv7-ONNX-RKNN-HORIZON-TensorRT-Detection
 ***Remark: This repo only support 1 batch size***
 ![!YOLOv7 ONNX RKNN Detection Picture](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/visual_image.jpg)
 ![!YOLOv7 ONNX RKNN Detection Video](https://github.com/laitathei/YOLOv7-ONNX-RKNN-Detection/blob/main/doc/result.gif)
 
 Video source: https://www.youtube.com/watch?v=n3Dru5y3ROc&t=0s
 ```
-git clone --recursive https://github.com/laitathei/YOLOv7-ONNX-RKNN-HORIZON-Detection.git
+git clone --recursive https://github.com/laitathei/YOLOv7-ONNX-RKNN-HORIZON-TensorRT-Detection.git
 ```
 ## 0. Environment Setting
 ```
